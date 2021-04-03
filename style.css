@@ -1,0 +1,34 @@
+/************************************
+*main css file for portfolio website*
+*created by TItus Njiru             *
+*on March 8th 2021                  *
+*************************************/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  color: rgb(226, 184, 184);
+  font-family: verdana;
+}
+h1 {
+  text-align: center;
+  color: rgb(150, 145, 145);
+}
+h2 {
+  text-align: center;
+  color: rgb(150, 145, 145);
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+
+  margin-right: 140px;
+  margin-left: 140px;
+  font: size 0.75em;
+}
+nav {
+  color: #003d00 !important;
+}
