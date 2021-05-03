@@ -3,6 +3,9 @@
 *created by Adrian Mwangi           *
 *on March 8th 2021                  *
 *************************************/
+html {
+  scroll-behavior: smooth;
+}
 nav {
   background-color: rgba(12, 12, 12, 0.836);
   height: 80px;
@@ -49,6 +52,8 @@ label.logo {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  opacity: 0.7;
+  border-radius: 8px;
 }
 .splashscreen:hover {
   transform: scaleX(-1);
@@ -74,13 +79,21 @@ h3 {
   color: rgba(255, 234, 117, 0.493);
   text-decoration: underline;
 }
-p {
+h4 {
+  color: rgba(255, 234, 117, 0.493);
+  font-size: 25px;
+}
+h5 {
+  color: rgba(255, 234, 117, 0.493);
+  font-size: 20px;
+}
+.bodycontent {
   text-align: justify;
   text-justify: inter-word;
 
   margin-right: 140px;
   margin-left: 140px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
     "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
@@ -96,15 +109,15 @@ p {
 
 img {
   max-width: 100%;
-  border-radius: 8px;
 }
 
 .image {
   flex-basis: 50%;
+  border-radius: 8px;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 0px;
 }
 .container2 {
@@ -115,10 +128,10 @@ img {
 
 img2 {
   max-width: 100%;
-  border-radius: 8px;
 }
 .image2 {
   flex-basis: 28%;
+  border-radius: 8px;
 }
 
 .text2 {
@@ -130,4 +143,214 @@ blockquote {
   margin-left: 140px;
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   font-size: 25px;
+}
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+img3 {
+  max-width: 100%;
+}
+.image3 {
+  flex-basis: 100%;
+}
+
+.text3 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 140px;
+}
+
+img4 {
+  max-width: 100%;
+}
+.image4 {
+  flex-basis: 59%;
+}
+
+.text4 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 140px;
+}
+
+img5 {
+  max-width: 100%;
+}
+.image5 {
+  flex-basis: 69%;
+}
+
+.text5 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 140px;
+}
+
+img6 {
+  max-width: 100%;
+}
+.image6 {
+  flex-basis: 68%;
+}
+
+.text6 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 140px;
+}
+
+img7 {
+  max-width: 100%;
+}
+.image7 {
+  flex-basis: 83%;
+}
+
+.text7 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 140px;
+}
+
+img8 {
+  max-width: 100%;
+}
+.image8 {
+  flex-basis: 83%;
+}
+
+.text8 {
+  font-size: 18px;
+  padding-left: 20px;
+}
+footer {
+  margin-top: 38px;
+  margin-bottom: 35px;
+  font-size: 15px;
+  background-color: #bda20880;
+  text-align: center;
+}
+.form {
+  width: 400px;
+  height: 420px;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  padding: 60px 30px;
+  margin-left: 450px;
+  transform: translate(-50% -50%);
+  box-sizing: border-box;
+  box-shadow: 8px 8px 50px #000;
+}
+#contactus {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.form input[type="text"],
+.form input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ccc;
+}
+.form input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #bda20880;
+}
+.form a:hover {
+  color: #fff;
+}
+.form a {
+  color: #fff;
+}
+.bottom-text {
+  color: white;
+}
+.bottom-text a {
+  float: right;
+}
+.bottom-text input {
+  width: 10%;
+  float: left;
+}
+.socials {
+  cursor: pointer;
+  margin-top: 15%;
+  text-align: center;
+}
+.socials a {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.socials a:nth-child(1) {
+  background: #3b5998;
+}
+.socials a:nth-child(2) {
+  background: #55acee;
+}
+.socials a:nth-child(3) {
+  background: #bd081c;
+}
+.socials a:nth-child(4) {
+  background: #0077b5;
+}
+.socials a i {
+  padding: 8px 0;
 }
