@@ -1,17 +1,63 @@
 /************************************
 *main css file for portfolio website*
-*created by TItus Njiru             *
+*created by Adrian Mwangi           *
 *on March 8th 2021                  *
 *************************************/
-.center {
+nav {
+  background-color: rgba(12, 12, 12, 0.836);
+  height: 80px;
+  width: 100vw;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0%;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: rgba(255, 234, 117, 0.493);
+  font-size: 17px;
+  padding: 7px 13px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgba(92, 92, 92, 0.411);
+  opacity: 1;
+  transition: 1.5s;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+label.logo {
+  font-family: cursive;
+  color: rgba(255, 234, 117, 0.493);
+  font-size: 50px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bolder;
+}
+
+.splashscreen {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+.splashscreen:hover {
+  transform: scaleX(-1);
+}
+
 body {
-  color: rgb(226, 184, 184);
+  color: rgb(211, 211, 211);
   font-family: verdana;
+  background-image: url("Images/dark-background-1.jpg");
 }
 h1 {
   text-align: center;
@@ -19,7 +65,14 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: rgb(150, 145, 145);
+  color: rgba(255, 234, 117, 0.493);
+}
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgba(255, 234, 117, 0.493);
+  text-decoration: underline;
 }
 p {
   text-align: justify;
@@ -27,8 +80,54 @@ p {
 
   margin-right: 140px;
   margin-left: 140px;
-  font: size 0.75em;
+  font-size: 25px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
+    "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
-nav {
-  color: #003d00 !important;
+.containertext {
+  font-size: 30px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.image {
+  flex-basis: 50%;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img2 {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.image2 {
+  flex-basis: 28%;
+}
+
+.text2 {
+  font-size: 20px;
+  padding-left: 0px;
+}
+blockquote {
+  margin-right: 140px;
+  margin-left: 140px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-size: 25px;
 }
